@@ -8,9 +8,6 @@ on:
 
 jobs:
   build:
-    strategy:
-      matrix:
-        targetplatform: [x64]
         
     runs-on: ubuntu-latest
 
